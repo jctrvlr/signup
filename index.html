@@ -9,7 +9,6 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
-
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
@@ -25,6 +24,17 @@
 			<li><a href="#home">Home</a></li>
 			<li><a href="#signup_page">Login/New User</a></li>
 		</ul>
+	</div>
+	<div class="form">
+		<h2>Sign up today!</h2>
+		<form id="reg" action="/" method="post">
+			<input type="text" name="first_name" placeholder="Enter your first name"/>
+			<input type="text" name="last_name" placeholder="Enter your last name"/>
+			<input type="text" name="user_name" placeholder="Enter a username"/>
+			<input type="text" name="email_1" placeholder="Enter your email"/>
+			<input type="text" name="email_2" placeholder="Re-enter your email"/>
+			<input type="text" name="password_1" placeholder="Enter a password" />
+		</form>
 	</div>
         <script src="https://code.jquery.com/jquery-{{JQUERY_VERSION}}.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-{{JQUERY_VERSION}}.min.js"><\/script>')</script>

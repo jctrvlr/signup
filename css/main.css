@@ -291,3 +291,61 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+.nav {
+	height: 50px;
+	
+}
+.nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+.nav li{
+	display: inline;
+	float: left
+	
+}
+.nav li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding 14px 16px;
+	text-decoration: none;
+	padding: 8px;
+}
+.nav li a:hover {
+	background-color: #111;
+}
+.right {
+	float:right;
+}
+form {
+	max-width: 300px;
+	margin: 10px auto;
+	padding: 10px 20px;
+	border-radius: 8px;
+}
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="datetime"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+	border: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	outline: 0;
+	padding: 15px;
+	width: 100%;
+	margin-bottom: 30px;
+}

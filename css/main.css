@@ -105,8 +105,9 @@ textarea {
 	margin: 0px;
 	transition: all 0.3s ease;
 }
-
-
+.hide {
+	display: none; !important
+}
 
 
 
@@ -324,7 +325,7 @@ textarea {
 	background-color: #111;
 }
 .right {
-	float:right;
+	float:right; !important
 }
 form {
 	max-width: 500px;

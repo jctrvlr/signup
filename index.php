@@ -30,31 +30,6 @@
 		<h2>IT218<i> Community</i></h2>
 		<hr />
 	</div>
-	<div id="sign_in" class="form">
-		<form id="signin" action="/" method="post">
-		<h2> Sign in!</h2>
-			<input type="text" name="user_name" placeholder="Enter your username">
-			<input type="password" name="password" placeholder="Enter your password">
-			<span>Don't have an account? Make one <span id="sign_swap" onclick="new_user()">here</a></span>
-			<button type="submit">Sign in</button>
-		</form>
-	</div>
-	<div id="sign_up" class="form hidden">
-		<form id="reg" action="form.php" method="post">
-		<h2>Sign up today!</h2>
-			<input type="text" name="first_name" placeholder="Enter your first name"/>
-			<input type="text" name="last_name" placeholder="Enter your last name"/>
-			<input type="text" name="user_name" placeholder="Enter a username"/>
-			<input type="email" name="email_1" placeholder="Enter your email"/>
-			<input type="email" name="email_2" placeholder="Re-enter your email"/>
-			<input type="password" name="password_1" placeholder="Enter a password" />
-			<input type="password" name="password_2" placeholder="Re-enter password" />
-			<span><input type="checkbox" name="terms"> I have read and agree to the <b><a href="### CHANGE TO TERMS LINK ###">terms</a></b>
-			of service</span>
-			<span>Already have an account? Click <span id="sign_swap" onclick="signup()">here</span></span>
-			<button type="submit">Sign Up</button>
-		</form>
-	</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/plugins.js"></script>
         <script src="js/main.js"></script>

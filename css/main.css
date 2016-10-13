@@ -105,10 +105,10 @@ textarea {
 	margin: 0px;
 	transition: all 0.3s ease;
 }
-.hide {
-	display: none; !important
+#sign_swap {
+	text-decoration: underline;
+	color: #5498F7;
 }
-
 
 
 

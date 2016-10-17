@@ -24,6 +24,10 @@
 			<li><a href="index.php">Home</a></li>
 			<li style="float: right;" ><a href="login.php">Login/New User</a></li>
 			<li style="float: right;" ><a href="logout.php">Logout</a></li>
+			<!-- TODO: Make PHP if statement to display profile instead of logout
+			     depending whether php session is active/valid or not  -->
+			<li style="float: right;" ><a href="profile.php">Profile</a></li>
+									     
 		</ul>
 	</div>
 	<div class="intro">

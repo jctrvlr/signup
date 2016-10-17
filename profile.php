@@ -31,8 +31,15 @@
 		</ul>
 	</div>
 	<div class="intro">
-		<h2>IT218<i> Community</i></h2>
+		<h2>Profile</h2>
 		<hr />
+	</div>
+	<div class="profile">
+		<!-- Replace with php database calls to specific users img/info -->
+		<img src="http://placehold.it/100x125">
+		<h3>John Smith</h3>
+		<h4>j.smith</h4>
+	
 	</div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="js/plugins.js"></script>

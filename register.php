@@ -17,7 +17,7 @@ class database {
 	// Set options
 	$options = array(
 	  PDO::ATTR_PERSISTENT => true,
-	  PDO::ATR_ERRMODE => PDO::ERRMODE-EXCEPTION
+	  PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION
 	);
 	// Create a new PDO instance
 	try{

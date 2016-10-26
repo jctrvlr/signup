@@ -6,7 +6,7 @@ class database {
   private $user = DB_USER;
   private $pass = DB_PASS;
   private $dbname = DB_NAME;
-  
+
   private $dbh;
   private $error;
   
@@ -26,6 +26,8 @@ class database {
 	// Catch errors
 	catch(PDOException $e){
 	    $this->error = $e->getMessage();
+	    echo phpinfo();
+	    echo $this->error;
 	}
   }
   public function query($query) {
